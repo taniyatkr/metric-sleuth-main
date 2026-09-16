@@ -29,6 +29,10 @@ import json
 import os
 import sqlite3
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 MODEL = "claude-sonnet-5"
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
