@@ -15,7 +15,12 @@ question's own stages lives in that question's own file, not here.
 """
 
 import os
+import os
 import sqlite3
+
+from dotenv import load_dotenv
+
+load_dotenv()
 
 MODEL = "claude-sonnet-5"
 
