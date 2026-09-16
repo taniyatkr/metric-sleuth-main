@@ -76,8 +76,6 @@ from mcp.client.stdio import stdio_client
 load_dotenv()
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SERVER_PATH = os.path.join(REPO_ROOT, "mcp_server", "analytics_server.py")
 SERVER_PARAMS = StdioServerParameters(command="python3", args=[SERVER_PATH])
 
